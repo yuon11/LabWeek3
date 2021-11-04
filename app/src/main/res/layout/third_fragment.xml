@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/third_fragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/detail1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="detail1"></EditText>
+
+        <EditText
+            android:id="@+id/detail2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="detail2"></EditText>
+
+        <EditText
+            android:id="@+id/detail3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="detail3"></EditText>
+
+        <EditText
+            android:id="@+id/detail4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="detail4"></EditText>
+        <EditText
+            android:id="@+id/detail5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="detail5"></EditText>
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"></Button>
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"></Button>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
